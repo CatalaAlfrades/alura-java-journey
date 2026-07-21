@@ -22,5 +22,14 @@ public class Main {
             System.out.println("Model: " + toyota.getModel());
             System.out.println("Plate: " + toyota.getPlate());
             System.out.println("Year: " + toyota.getYear());
+
+            // Second test about polimorfism
+            System.out.println("\n ------------------------------- 2 Testes ---------------------------------------\n");
+            Student aluno1 = new Student("Fernanda", "regular");
+            Scholarship aluno2 = new Scholarship("Lucas");
+
+            aluno1.Identify();
+            aluno2.Identify();
+
         }
 }
