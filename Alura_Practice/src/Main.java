@@ -23,7 +23,7 @@ public class Main {
             System.out.println("Plate: " + toyota.getPlate());
             System.out.println("Year: " + toyota.getYear());
 
-            // Second test about polimorfism
+            // Second test about heritage
             System.out.println("\n ------------------------------- 2 Testes ---------------------------------------\n");
             Student aluno1 = new Student("Fernanda", "regular");
             Scholarship aluno2 = new Scholarship("Lucas");
@@ -31,5 +31,15 @@ public class Main {
             aluno1.Identify();
             aluno2.Identify();
 
+            // Third test about polymorphism
+            System.out.println("\n ------------------------------- 3 Testes ---------------------------------------\n");
+            Reserve r = new Reserve();
+            r.book();
+            r.book("10/04");
+            r.book("12/04", 4);
+
+            Reserve vip = new VipReserve();
+            vip.book();
         }
+
 }

@@ -2,9 +2,9 @@ public class Student {
     private String name;
     private String type;
 
-    public Student(String nome, String tipo) {
+    public Student(String nome, String type) {
         this.name = nome;
-        this.type = tipo;
+        this.type = type;
     }
 
     public void Identify() {
